@@ -9,6 +9,13 @@ Provide a short description explaining the what, why, and how of your project. U
 - What problem does it solve?
 - What did you learn?
 
+This repo is meant to house my javascript tutorial scripts and development, rough sketches of shit I want to achieve and the process of getting there. There is nothing solid at the moment, it's more like little blocks of code that do all the things I want to eventually making something good.
+
+- Motivated because I need food and coffee and rent and stuff
+- Made this because I need to learn javascript, tried many times before but always get bored and give up
+- Solves the problem of me being ignorant of javascript and hopefully lands me with some work or a job and consequently loads of cash
+- I learned tons of shit. every day. it never ends.
+
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
