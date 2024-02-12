@@ -19,6 +19,38 @@ h1 {
     <script>
 	let b = new Date().toLocaleString("en-GB", {timeZone: "Asia/Bangkok"})
      	document.body.innerHTML = "<h1>Today's date is " + b + "</h1>"
+	    let name = prompt("What is your name?");
+alert("Hello, " + name + "!");
+console.log("Hello, " + name + "!");
+	    
+	    // Initialize a function
+function alphabetizeOceans() {
+	// Define oceans variable as a list of strings
+	const oceans = ["Pacific", "Atlantic", "Indian", "Antarctic", "Arctic"];
+
+	// Print alphabetized array to the console
+	console.log(oceans.sort());
+}
+alphabetizeOceans();
+	    // Function to add two numbers
+function addTwoNumbers(x, y) {
+  let sum = x + y;
+  return sum;
+}
+
+// Function to multiply two numbers
+function multiplyTwoNumbers(x, y) {
+  let product = x * y;
+  return product;
+}
+
+/* In this example, we're commenting out the addTwoNumbers
+function, therefore preventing it from executing. Only the
+multiplyTwoNumbers function will run */
+
+// addTwoNumbers(3, 5);
+console.log(multiplyTwoNumbers(5, 9));
+
 
     </script>
 </body>
