@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Today's Date</title>
+<style>
+body {
+    background-color: #0080ff;
+}
+ 
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}</style>
+
+</head>
+<body>
+    <script>
+	let b = new Date().toLocaleString("en-GB", {timeZone: "Asia/Bangkok"})
+     	document.body.innerHTML = "<h1>Today's date is " + b + "</h1>"
+	    let name = prompt("What is your name?");
+alert("Hello, " + name + "!");
+console.log("Hello, " + name + "!");
+	    
+	    // Initialize a function
+function alphabetizeOceans() {
+	// Define oceans variable as a list of strings
+	const oceans = ["Pacific", "Atlantic", "Indian", "Antarctic", "Arctic"];
+
+	// Print alphabetized array to the console
+	console.log(oceans.sort());
+}
+alphabetizeOceans();
+	    // Function to add two numbers
+function addTwoNumbers(x, y) {
+  let sum = x + y;
+  return sum;
+}
+
+// Function to multiply two numbers
+function multiplyTwoNumbers(x, y) {
+  let product = x * y;
+  return product;
+}
+
+/* In this example, we're commenting out the addTwoNumbers
+function, therefore preventing it from executing. Only the
+multiplyTwoNumbers function will run */
+
+// addTwoNumbers(3, 5);
+console.log(multiplyTwoNumbers(5, 9));
+
+
+	
+// Assign the five oceans to five variables
+const ocean1 = "Pacific";
+const ocean2 = "Atlantic";
+const ocean3 = "Indian";
+const ocean4 = "Arctic";
+const ocean5 = "Antarctic";
+	// Assign the five oceans
+let oceans = [
+	"Pacific",
+	"Atlantic",
+	"Indian",
+	"Arctic",
+	"Antarctic",
+];
+	// Print out the first item of the oceans array
+oceans[0];
+	// Initialize array of shark species with array literal
+[label sharks.js]
+let sharks = [
+	"Hammerhead",
+	"Great White",
+	"Tiger",
+];
+	// Initialize array of shark species with array constructor
+let sharks = new Array(
+	"Hammerhead",
+	"Great White",
+	"Tiger",
+);
+	// Print out the entire sharks array
+sharks;
+	// Initialize array of mixed datatypes
+let mixedData = [
+	"String",
+	null,
+	7,
+	[
+		"another",
+		"array",
+	],
+];
+	let seaCreatures = [
+	"octopus",
+	"squid",
+	"shark",
+	"seahorse",
+	"starfish",
+];
+	seaCreatures.length;
+	seaCreatures.indexOf("seahorse");
+	seaCreatures.indexOf("cuttlefish");
+	const lastIndex = seaCreatures.length - 1;
+
+seaCreatures[lastIndex];
+	let nestedArray = [
+	[
+		"salmon",
+		"halibut",
+	],
+	[
+		"coral",
+		"reef",
+	]
+];
+
+nestedArray[1][0];
+	seaCreatures[5] = "whale";
+
+seaCreatures;
+
+
+    </script>
+</body>
+</html>
