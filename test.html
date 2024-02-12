@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Today's Date</title>
+<style>
+body {
+    background-color: #0080ff;
+}
+ 
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}</style>
+
+</head>
+<body>
+    <script>
+	let b = new Date().toLocaleString("en-UK", {timeZone: "Asia/Bangkok"})
+     	document.body.innerHTML = "<h1>Today's date is " + b + "</h1>"
+
+    </script>
+</body>
+</html>
